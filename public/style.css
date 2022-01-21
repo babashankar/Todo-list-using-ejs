@@ -28,6 +28,7 @@ body {
 
 .list-item {
     display: block;
+    border-bottom: 1px solid white;
 }
 
 .list {
@@ -54,7 +55,7 @@ body {
 
 input:checked+p {
     text-decoration: line-through;
-    text-decoration-color: black;
+    text-decoration-color: darkblue;
 }
 
 input[type="checkbox"] {
@@ -77,6 +78,7 @@ input[type="text"] {
 
 input[type="text"]:focus {
     border: none;
+    padding: 5px;
 }
 
 button {
